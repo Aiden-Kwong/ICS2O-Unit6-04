@@ -7,9 +7,9 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h3>Trapezoid Area Calculator</h3>
-    <p id="answer"></p>
+    <h2 class="title">Trapezoid Area Calculator</h2>
     <div class="input-block, container">
+      <p>Insert the length of each value in the boxes below:</p>
       <label>Height, h:  </label>
       <input align="right" type="text" id="height" name="height">
       <br>
@@ -24,6 +24,27 @@
     </div>
     <div class="center-block">
       <button id="calc-btn" class="btn">Calculate</button>
+    </div>
+
+    <div class="answer-block">
+      <p id="answer">Your answer will appear here!</p>
+    </div>
+
+    <div class="middle-split"></div>
+
+    <div class="imageblock">
+      <img src="images/trapezoid.jpg" alt="Trapezoid" class="image">
+    </div>
+
+    <div class="reminderblock">
+      <p class="special-para"><b>Remember!</b></p>
+      <p style="text-align: center;">The formula for the area of a trapezoid is:</p>
+    </div>
+
+    <div class="formulablock">
+      <img src="images/trapezoid-area.jpg" alt="Formula" class="image">
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
