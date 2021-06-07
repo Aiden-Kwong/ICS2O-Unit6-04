@@ -1,0 +1,26 @@
+.container {
+  width: 30%;
+  clear: both;
+}
+
+.input-block {
+  float: left;
+  padding: 15px
+}
+
+.container input {
+  clear: both;
+  width: 100%;
+}
+
+.btn {
+  border-radius: 6px;
+  width: 150px;
+  height: 50px;
+}
+
+.center-block {
+  margin: auto;
+  width: 33%;
+  padding: 10px;
+}
