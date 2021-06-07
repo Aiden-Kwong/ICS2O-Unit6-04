@@ -28,7 +28,7 @@ function calculateArea () {
     } else {
       document.getElementById('answer').innerHTML = 'Please enter a positive number! (Greater than zero)'
     }
-  // If NaN, send this message:   
+  // If NaN, send this message:
   } else {
     document.getElementById('answer').innerHTML = 'Please enter a number using numerical symbols!'
   }
