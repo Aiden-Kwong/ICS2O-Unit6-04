@@ -18,15 +18,15 @@ function calculateArea () {
   bottombase = parseFloat(document.getElementById('bottom-base').value)
   // Checking if all variables are numbers
   if (!isNaN(height) && !isNaN(topbase) && !isNaN(bottombase)) {
-      // If bases are numbers, check if they are greater than 0.
-      if ((height > 0) && (topbase > 0) && (bottombase > 0)) {
-        // Calculations
-        area = ((topbase + bottombase) / 2) * height
-        // Output area in message.
-        document.getElementById('answer').innerHTML = `The area is ${area}.`
-      // If less than 0, send this message:
-      } else {
-        document.getElementById('answer').innerHTML = 'Please enter a positive number! (Greater than zero)'
+    // If bases are numbers, check if they are greater than 0.
+    if ((height > 0) && (topbase > 0) && (bottombase > 0)) {
+    // Calculations
+    area = ((topbase + bottombase) / 2) * height
+    // Output area in message.
+    document.getElementById('answer').innerHTML = `The area is ${area}.`
+    // If less than 0, send this message:
+    } else {
+      document.getElementById('answer').innerHTML = 'Please enter a positive number! (Greater than zero)'
       }
   // If NaN, send this message:    
   } else {
